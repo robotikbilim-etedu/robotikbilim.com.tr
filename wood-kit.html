@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wood-Kit - Kodlama ve STEM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./assets/images/yeni_logo_yanyana-ezgif.com-crop.ico">
+    <link rel="stylesheet" href="wood-kit.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="main-nav">
+            <a href="./index.html" class="logo">
+                <img src="./assets/images/yeni_logo_yanyana.png" alt="Robotik Bilim logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="./index.html">Ana Sayfa</a></li>
+                <li><a href="./et-edu.html">Et-Edu</a></li>
+                <li class="nav-item dropdown">
+                    <p class="dropdown-toggle">
+                        Kitler <i class="fas fa-chevron-down"></i>
+                    </p>
+                    <ul class="dropdown-menu">
+                        <li><a href="./all-kits.html">Tüm Kitler</a></li>
+                        <li><a href="./all-kits/red-kit.html">Red-Kit</a></li>
+                        <li><a href="./all-kits/blue-kit.html">Blue-Kit</a></li>
+                        <li><a href="./all-kits/green-kit.html">Green-Kit</a></li>
+                        <li><a href="./all-kits/black-kit.html">Black-Kit</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <p class="dropdown-toggle">
+                        Wood-Kit <i class="fas fa-chevron-down"></i>
+                    </p>
+                    <ul class="dropdown-menu">
+                        <li><a href="./wood-kit.html">Wood-Kit</a></li>
+                        <li><a href="./wood-kit-detail.html">Wood-Kit Detay</a></li>
+                        <li><a href="./wood-kit-stem.html">Wood-Kit STEM</a></li>
+                    </ul>
+                </li>
+                <li><a href="./educations.html">Eğitimler</a></li>
+            </ul>
+            <div class="header-actions">
+                <a href="#" class="btn-demo btn-primary-nav">Demo Talebi</a>
+                <button class="menu-toggle" aria-label="Open navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <div class="page-container">
+        <main>
+            <div class='hero-container'>
+                <section class="hero-section" id="hero">
+                    <div class="hero-content">
+                        <h1>Uygulamalı Kodlama ve Elektronik Eğitimi</h1>
+                        <p>
+                            Green-Kit, Micro:bit tabanlı bir eğitim setidir ve öğrencilerin çeşitli sensörler, motorlar ve tematik ahşap parçalarla kendi projelerini gerçekleştirmelerine olanak tanır.
+                        </p>
+                        
+                        <div class="cta-buttons">
+                            <a href="#" class="btn btn-primary">Tanıtım Videosunu İzleyin</a>
+                            <a href="#iletisim" class="btn btn-secondary">Ücretsiz Deneme Talep Edin</a>
+                            <a href="#" class="btn btn-secondary">Eğitim İçeriklerini İndirin</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <section class="optimize-section" id="nedir">
+                <div class="optimize-container">
+                    <div class="optimize-image-wrapper">
+                        <img src="./assets/images/contentthumb1.png" alt="Man with glasses looking at a tablet" class="main-image">
+                        <img src="./assets/images/card.png" alt="Expense Statistics pie chart" class="chart-overlay">
+                        <div class="image-border-decoration"></div>
+                    </div>
+                    <div class="optimize-content">
+                        <h2>Eğitim Teknolojileriyle Güçlü Öğretim: Et-Edu</h2>
+                        <ul class="features-list">
+                            <li>
+                                <div class="feature-icon"><i class="fas fa-microchip"></i></div>
+                                <div class="feature-text">
+                                    <h3>Canlı Kodlama</h3>
+                                    <p>Başka bir yere giriş yapmadan portal içinde Scratch, mBlock ve Python yazabilme imkanı.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feature-icon"><i class="fas fa-cogs"></i></div>
+                                <div class="feature-text">
+                                    <h3>Öğretmen Paneli</h3>
+                                    <p>İçerik oluşturma, ödev atama ve sınıf yönetimi.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feature-icon"><i class="fas fa-cube"></i></div>
+                                <div class="feature-text">
+                                    <h3>Ölçme Değerlendirme</h3>
+                                    <p>Öğrenci gelişim raporları ve performans takibi.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="features-row-section" id="icerik">
+                <div class="features-row-grid">
+                    <div class="feature-item">
+                        <div class="feature-row-icon icon-yellow">✳</div>
+                        <div class="feature-row-text">
+                            <h3>Loyalty to clients</h3>
+                            <p>97% Of our customers would recommend us to a friend</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-row-icon icon-purple">✳</div>
+                        <div class="feature-row-text">
+                            <h3>Service response</h3>
+                            <p>110K+ Active services helping our clients succeed</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-row-icon icon-blue">✳</div>
+                        <div class="feature-row-text">
+                            <h3>Global acceptance</h3>
+                            <p>250 Countries/territories where people choose our hosting</p>
+                        </div>
+                    </div>
+                    <div class="feature-item-circular">
+                        <svg viewBox="0 0 100 100">
+                            <path d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" id="circlePathFeaturesTop" fill="none"/>
+                            <text fill="#1a1a1a" font-family="Inter, sans-serif" font-size="8" font-weight="600" letter-spacing="0.5">
+                                <textPath xlink:href="#circlePathFeaturesTop">
+                                    • Reliable. Fast. Simple. • Reliable. Fast. Simple.
+                                </textPath>
+                            </text>
+                            <path d="M 50, 35 L 50, 65 M 50, 65 L 45, 60 M 50, 65 L 55, 60" 
+                                  stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+            </section>
+            <section class="optimize-section" id="moduller">
+                <div class="optimize-container">
+                    <div class="optimize-content">
+                        <h2>Eğitim Teknolojileriyle Güçlü Öğretim: Et-Edu</h2>
+                        <ul class="features-list">
+                            <li>
+                                <div class="feature-icon"><i class="fas fa-microchip"></i></div>
+                                <div class="feature-text">
+                                    <h3>Canlı Kodlama</h3>
+                                    <p>Başka bir yere giriş yapmadan portal içinde Scratch, mBlock ve Python yazabilme imkanı.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feature-icon"><i class="fas fa-cogs"></i></div>
+                                <div class="feature-text">
+                                    <h3>Öğretmen Paneli</h3>
+                                    <p>İçerik oluşturma, ödev atama ve sınıf yönetimi.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feature-icon"><i class="fas fa-cube"></i></div>
+                                <div class="feature-text">
+                                    <h3>Ölçme Değerlendirme</h3>
+                                    <p>Öğrenci gelişim raporları ve performans takibi.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="optimize-image-wrapper">
+                        <img src="./assets/images/contentthumb1.png" alt="Man with glasses looking at a tablet" class="main-image">
+                        <img src="./assets/images/card.png" alt="Expense Statistics pie chart" class="chart-overlay">
+                        <div class="image-border-decoration"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="features-row-section" id="kazanimlar">
+                <div class="features-row-grid">
+                    <div class="feature-item">
+                        <div class="feature-row-icon icon-yellow">✳</div>
+                        <div class="feature-row-text">
+                            <h3>Loyalty to clients</h3>
+                            <p>97% Of our customers would recommend us to a friend</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-row-icon icon-purple">✳</div>
+                        <div class="feature-row-text">
+                            <h3>Service response</h3>
+                            <p>110K+ Active services helping our clients succeed</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-row-icon icon-blue">✳</div>
+                        <div class="feature-row-text">
+                            <h3>Global acceptance</h3>
+                            <p>250 Countries/territories where people choose our hosting</p>
+                        </div>
+                    </div>
+                    <div class="feature-item-circular">
+                        <svg viewBox="0 0 100 100">
+                            <path d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" id="circlePathFeaturesBottom" fill="none"/>
+                            <text fill="#1a1a1a" font-family="Inter, sans-serif" font-size="8" font-weight="600" letter-spacing="0.5">
+                                <textPath xlink:href="#circlePathFeaturesBottom">
+                                    • Reliable. Fast. Simple. • Reliable. Fast. Simple.
+                                </textPath>
+                            </text>
+                            <path d="M 50, 35 L 50, 65 M 50, 65 L 45, 60 M 50, 65 L 55, 60" 
+                                  stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div> 
+    <footer class="site-footer-wrapper" id="iletisim">
+        <div class="footer-main">
+            <div class="footer-col about">
+                <a href="./index.html" class="footer-logo">Robotik Bilim</a>
+                <p>
+                    Micro:bit tabanlı eğitim seti. Kodlama ve elektronik becerilerini tematik ahşap parçalarla birleştirin.
+                </p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col links">
+                <h4>Mini Menü</h4>
+                <ul>
+                    <li><a href="#">Hakkımızda</a></li>
+                    <li><a href="#">Destek</a></li>
+                    <li><a href="#">Gizlilik</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                </ul>
+            </div>
+            <div class="footer-col links">
+                <h4>Linkler</h4>
+                <ul>
+                    <li><a href="#nedir">Neden Green-Kit?</a></li>
+                    <li><a href="#icerik">Set İçeriği</a></li>
+                    <li><a href="#moduller">Proje Modülleri</a></li>
+                    <li><a href="#kazanimlar">Kazanımlar</a></li>
+                </ul>
+            </div>
+            <div class="footer-col contact">
+                <h4>İletişim</h4>
+                <ul>
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:+905551234567">+90 555 123 45 67</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:info@robotluk.com">info@robotluk.com</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Adres: ...</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© Copyright 2024, Green-Kit. Tüm Hakları Saklıdır.</p>
+            <a href="#" class="scroll-to-top" aria-label="Scroll to top">
+                &uarr;
+            </a>
+        </div>
+    </footer>
+    <div class="mobile-menu-overlay">
+        <div class="mobile-menu-content">
+            <button class="close-menu" aria-label="Close navigation menu">&times;</button>
+            <ul class="mobile-nav-links">
+                <li><a href="./index.html">Ana Sayfa</a></li>
+                <li><a href="./et-edu.html">Et-Edu</a></li>
+                <li class="mobile-dropdown">
+                    <div class="mobile-dropdown-header">
+                        <p>Kitler</p>
+                        <span class="mobile-toggle-btn"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <ul class="mobile-dropdown-menu">
+                        <li><a href="./all-kits.html">Tüm Kitler</a></li>
+                        <li><a href="./all-kits/red-kit.html">Red-Kit</a></li>
+                        <li><a href="./all-kits/blue-kit.html">Blue-Kit</a></li>
+                        <li><a href="./all-kits/green-kit.html">Green-Kit</a></li>
+                        <li><a href="./all-kits/black-kit.html">Black-Kit</a></li>
+                    </ul>
+                </li>
+                <li class="mobile-dropdown">
+                    <div class="mobile-dropdown-header">
+                        <p>Wood-Kit</p>
+                        <span class="mobile-toggle-btn"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <ul class="mobile-dropdown-menu">
+                        <li><a href="./wood-kit.html">Wood-Kit</a></li>
+                        <li><a href="./wood-kit-detail.html">Wood-Kit Detay</a></li>
+                        <li><a href="./wood-kit-stem.html">Wood-Kit STEM</a></li>
+                    </ul>
+                </li>
+                <li><a href="./educations.html">Eğitimler</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="wood-kit.js"></script>
+</body>
+</html>
